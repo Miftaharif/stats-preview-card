@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    max-width: 950px;
+    height: 372px;
+    position: relative;
+    margin: 200px auto;
+    border-radius: 10px;
+    background-color:  hsl(244, 38%, 16%);
+}
+
+.wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.image {
+    width: 475px;
+    height: 372px;
+    background-image: url(images/image-header-desktop.jpg);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.overlay {
+    width: 475px;
+    height: 372px;
+    background-color: hsl(277, 64%, 61%, 0.6);
+    margin-left: -475px;
+    border-radius: 0px 15px 15px 0px;
+    z-index: 2;
+}
+
+.content {
+    padding: 35px 75px;
+    width: 400px;
+}
+
+.content > h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.content > h1 > span {
+    color: hsl(277, 64%, 61%);
+}
+
+.content  p {
+    color:  hsla(0, 0%, 100%, 0.6);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col- > h2 {
+    color: hsl(0, 0%, 100%);
+}
